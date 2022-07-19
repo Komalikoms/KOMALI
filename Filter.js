@@ -2,7 +2,7 @@
 import React,{useState} from 'react';
 
 function Filter(){
-    const fruits=['Apple','Banana','Pineapple','Orange'];
+    const fruits=['Apple','Banana','Pineapple','Orange','guava'];
     const[list,setList]=useState(fruits);
 
     const handleSearch=(event)=>{
